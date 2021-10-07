@@ -5,8 +5,7 @@ services:
   web:
     build:
       volumes:
-      - .:/app
-      - /app/vendor
+      - ./index.php
       dockerfile: Dockerfile
     image: takehome-exam
     ports: 
